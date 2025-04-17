@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+body{
+    background-image: url("../img/fundo.jpeg");
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: black;
+    text-shadow: rgb(154, 157, 118) 2px 2px;
+}
+
+.container{
+    background-color: lightcoral;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid white 2px;
+    height: 300px;
+    display: block;
+    overflow-y: scroll ;
+    opacity: 0.8;
+    padding-left: 50px;
+}
+
+table{
+    box-shadow: 10px 5px 5px black;
+    font-family: "Poetsen One", sans-serif;
+}
+
+th {
+    font-size: 16px;
+    background-color: gray;
+    padding: 5px;
+
+}
+
+td, th{
+    border: solid black 1px;
+
+}
+
+tr:hover {
+    background-color: blue;
+    color: white;
+}

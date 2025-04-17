@@ -1,0 +1,41 @@
+/*Importação*/
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Silkscreen:wght@400;700&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image: url('/conteudo_js/projeto_imagens/img/zoro.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+h1 {
+    text-align: end;
+    font-size: 42pt;
+    color: white;
+    padding: 20px;
+    margin-right: 100px;
+    margin-top: 200px;
+    font-family: 'silkscreen';
+}
+
+button{
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    margin-right: 600px;
+    margin-top: 100px;
+}
