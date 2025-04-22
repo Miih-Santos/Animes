@@ -1,0 +1,62 @@
+/*Importação*/
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Silkscreen:wght@400;700&display=swap');
+
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image: url('/img/zoro.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:left top; /*Padrão*/
+    overflow-x:hidden;
+}
+
+main{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding-right:20px;
+}
+
+main div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+h1{
+    text-align: end;
+    font-size: 2em;
+    color: white;
+    padding: 20px;
+    font-family: 'silkscreen';
+    text-shadow: 10px 10px 20px black;
+}
+
+button#btn{
+    border: none;
+    height: 50px;
+    width: 80px;
+    border-radius: 25px;
+    font-family: 'Julius Sans One';
+    font-weight: 500;
+    background-color: #443224;
+    color:white;
+    transition: .2s;
+}
+
+button#btn:hover{
+    transform: scale(1.2);
+    background-color: #2F221A;
+    box-shadow: 1px 1px 10px black;
+}

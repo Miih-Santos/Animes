@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Silkscreen:wght@400;700&display=swap');
+
+
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+* p{
+    font-family: 'julius sans one' ;
+    font-size: 16pt;
+    width: 500px;
+}
+
+body{
+    background-image: url('/View/img/background-one-piece.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:right top; /*Padrão*/
+    overflow-x:hidden;
+}
+
+main{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding:20px;
+}
+
+main div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+main div div.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    text-align: end;
+    font-size: 3.5em;
+    color: white;
+    padding: 20px;
+    font-family: 'silkscreen';
+    text-shadow: 10px 10px 20px black;
+}
+
+div.buttons > button.botoes{
+    width:65px;
+    height: 25px;
+    border:none;
+    border-radius: 20px;
+    background-color: black;
+    color:white;
+    transition:0.2s;
+    font-family: 'Julius sans one';
+}
+
+div.buttons > button.botoes:hover{
+    transform: scale(1.2);
+    background-color: white;
+    color: black;
+    box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.247);
+}
+
+.back {
+  width: 65px;
+  height: 25px;
+  border: none ;
+  border-radius: 20px;
+  margin: 20px 0 0 20px;
+  transition: .2s;
+  background-color: black;
+  color: white;
+  font-family: 'Julius sans one';
+}
+
+.back:hover {
+    transform: scale(1.2);
+    background-color: white;
+    color: black;
+}
